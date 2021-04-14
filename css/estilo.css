@@ -1,6 +1,9 @@
+@charset "UTF-8"
+
 /* Corpo do site*/
 body {
-    font: normal 20pt Arial;
+    font: normal 15pt Arial;
+    color: black;
     background-color: rgba(66, 184, 62, 0.5);
     margin: 0px auto 0px auto;
 }
@@ -10,13 +13,37 @@ div#interface {
     width: 800px;
     position: absolute;
     background-color: #ffffff;
-    margin: 20px 0px auto 300px;
+    margin: 20px 0px auto 290px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* Minha foto */
-header#cabecalho img#foto{
+header#cabecalho img#foto {
     position: absolute;
-    margin: 10px 0px 0px 0px;
+    margin: 50px 0px 0px 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 } 
+
+/* Minhas redes sociiais */
+header#cabecalho section#redes-sociais {
+    position: absolute;
+    display: block;
+    width: 230px;
+    padding: 5px;
+    margin: 250px 0px 0px 10px;
+    text-align: center;
+    color: #000080;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+header#cabecalho section#redes-sociais a{
+    font-weight: #000000;
+    text-decoration: none;
+}
+
+header#cabecalho section#redes-sociais a:hover{
+    font-weight: bold;
+    text-decoration: none;    
+}
+
