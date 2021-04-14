@@ -1,10 +1,11 @@
 @charset "UTF-8"
+@import url('htps: //fonts.googleapis.com/css? family = Allerta | Cantarell | Titillium + Web');
 
 /* Corpo do site*/
 body {
-    font: normal 15pt Arial;
+    font-family: 'Titillium Web', sans-serif;
     color: black;
-    background-color: rgba(66, 184, 62, 0.5);
+    background-color: rgba(66, 184, 62, 0.3);
     margin: 0px auto 0px auto;
 }
 
@@ -20,7 +21,7 @@ div#interface {
 /* Minha foto */
 header#cabecalho img#foto {
     position: absolute;
-    margin: 50px 0px 0px 10px;
+    margin: 50px 0px 0px 0px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 } 
 
@@ -32,7 +33,7 @@ header#cabecalho section#redes-sociais {
     padding: 5px;
     margin: 250px 0px 0px 10px;
     text-align: center;
-    color: #000080;
+    color: #000000;
     background-color: #ffffff;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
@@ -42,8 +43,47 @@ header#cabecalho section#redes-sociais a{
     text-decoration: none;
 }
 
+/* Passando o mouse por cima das resde sociais */
 header#cabecalho section#redes-sociais a:hover{
     font-weight: bold;
     text-decoration: none;    
 }
 
+/* Meu nome "Fernando Cruz" */
+header#cabecalho h2#nome {
+    position: absolute;
+    color: #000080;
+    margin: 300px 0px 0px 50px;0
+}
+
+/* Imagem do Prato da torta de repolho */
+section#corpo img#foto1 {
+    position: absolute;
+    margin: 0px 0px 0px 400px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Titulo "Torta de Repolho" */
+section#corpo h1{
+    text-align: center;
+    font-size: 40pt;
+    color: rgb(110, 0, 0);
+
+}
+
+/* Titulos usando h2 */
+section#corpo h2{
+    font-size: 30pt;
+    color: rgba(110, 0, 0);
+    margin-left: 20px;
+}
+
+/* Texto */
+section#corpo p {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 15pt;
+    color: rgba(0, 0, 0, 0.6);
+
+}
