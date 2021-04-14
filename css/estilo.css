@@ -19,9 +19,9 @@ div#interface {
 }
 
 /* Minha foto */
-header#cabecalho img#foto {
+header#cabecalho img#foto{
     position: absolute;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 0px -272px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 } 
 
@@ -31,7 +31,7 @@ header#cabecalho section#redes-sociais {
     display: block;
     width: 230px;
     padding: 5px;
-    margin: 250px 0px 0px 10px;
+    margin: 250px 0px 0px -265px;
     text-align: center;
     color: #000000;
     background-color: #ffffff;
@@ -53,23 +53,21 @@ header#cabecalho section#redes-sociais a:hover{
 header#cabecalho h2#nome {
     position: absolute;
     color: #000080;
-    margin: 300px 0px 0px 50px;0
+    margin: 300px 0px 0px -230px;
 }
 
 /* Imagem do Prato da torta de repolho */
 section#corpo img#foto1 {
     position: absolute;
-    margin: 0px 0px 0px 400px ;
+    margin: 20px 0px 0px 400px ;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-
 /* Titulo "Torta de Repolho" */
-section#corpo h1{
+section#corpo h1#titulo{
     text-align: center;
     font-size: 40pt;
     color: rgb(110, 0, 0);
-
 }
 
 /* Titulos usando h2 */
@@ -85,5 +83,12 @@ section#corpo p {
     padding-right: 30px;
     font-size: 15pt;
     color: rgba(0, 0, 0, 0.6);
+}
 
+/* Texto do Preparo */
+section#corpo li#preparo {
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 15pt;
+    color: rgba(0, 0, 0, 0.6);
 }
