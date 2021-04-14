@@ -5,7 +5,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     color: black;
-    background-color: rgba(57, 163, 53, 0.3);
+    background-color: rgba(163, 115, 53, 0.3);
     margin: 0px auto 0px auto;
 }
 
@@ -14,12 +14,12 @@ div#interface {
     width: 800px;
     position: absolute;
     background-color: #ffffff;
-    margin: 20px 0px auto 290px;
+    margin: 20px 0px auto 300px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 /* Minha foto */
-header#cabecalho img#foto{
+header#cabecalho img#foto {
     position: absolute;
     margin: 50px 0px 0px -272px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -38,13 +38,13 @@ header#cabecalho section#redes-sociais {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-header#cabecalho section#redes-sociais a{
+header#cabecalho section#redes-sociais a {
     font-weight: #000000;
     text-decoration: none;
 }
 
 /* Passando o mouse por cima das resde sociais */
-header#cabecalho section#redes-sociais a:hover{
+header#cabecalho section#redes-sociais a:hover {
     font-weight: bold;
     text-decoration: none;    
 }
@@ -52,7 +52,7 @@ header#cabecalho section#redes-sociais a:hover{
 /* Meu nome "Fernando Cruz" */
 header#cabecalho h2#nome {
     position: absolute;
-    color: #000080;
+    color: rgb(110, 0, 0);
     margin: 300px 0px 0px -230px;
 }
 
@@ -64,21 +64,21 @@ section#corpo img#foto1 {
 }
 
 /* Titulo "Torta de Repolho" */
-section#corpo h1#titulo{
+section#corpo h1#titulo {
     text-align: center;
     font-size: 40pt;
     color: rgb(110, 0, 0);
 }
 
 /* Titulos usando h2 */
-section#corpo h2{
+aside#lateral h2 {
     font-size: 30pt;
     color: rgba(110, 0, 0);
     margin-left: 20px;
 }
 
 /* Texto */
-section#corpo p {
+aside#lateral p {
     padding-left: 20px;
     padding-right: 30px;
     font-size: 15pt;
@@ -86,7 +86,7 @@ section#corpo p {
 }
 
 /* Texto do Preparo */
-section#corpo li#preparo {
+aside#lateral li#preparo {
     padding-left: 10px;
     padding-right: 30px;
     font-size: 15pt;
