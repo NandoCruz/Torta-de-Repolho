@@ -23,7 +23,7 @@ header#cabecalho img#foto {
     position: absolute;
     margin: 50px 0px 0px -272px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-} 
+}
 
 /* Minhas redes sociiais */
 header#cabecalho section#redes-sociais {
@@ -46,7 +46,7 @@ header#cabecalho section#redes-sociais a {
 /* Passando o mouse por cima das resde sociais */
 header#cabecalho section#redes-sociais a:hover {
     font-weight: bold;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 /* Meu nome "Fernando Cruz" */
