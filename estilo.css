@@ -92,7 +92,7 @@ section#corpo p{
 section#corpo div#texto02 li{
     font-size: 23px;
     margin: -5px;
-    padding: 0px 100px 0px 30px;
+    padding: 0px 100px 0px 0px;
     color: rgba(0, 0, 0, 0.7);
 }
 
