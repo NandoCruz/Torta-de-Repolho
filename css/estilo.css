@@ -9,6 +9,14 @@ body {
     margin: 0px auto 0px auto;
 }
 
+/* Titulo "Torta de Repolho" */
+section#corpo h1#titulo {
+    font-size: 'Titillium Web, sans-serif';
+    text-align: center;
+    font-size: 40pt;
+    color: rgb(110, 0, 0);
+}
+
 /* Interface a parte branca */
 div#interface {
     width: 800px;
@@ -27,6 +35,7 @@ header#cabecalho img#foto {
 
 /* Minhas redes sociiais */
 header#cabecalho section#redes-sociais {
+    font-family: 'Titillium Web', sans-serif;
     position: absolute;
     display: block;
     width: 230px;
@@ -61,13 +70,6 @@ section#corpo img#foto1 {
     position: absolute;
     margin: 20px 0px 0px 400px ;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-/* Titulo "Torta de Repolho" */
-section#corpo h1#titulo {
-    text-align: center;
-    font-size: 40pt;
-    color: rgb(110, 0, 0);
 }
 
 /* Titulos usando h2 */
