@@ -1,22 +1,24 @@
 @charset "UTF-8";
-@import url('htps: //fonts.googleapis.com/css? family = Allerta | Cantarell | Titillium + Web');
-
-body{
+body {
     font-family: 'Titillium Web', sans-serif;
     background: rgba(230, 186, 123, 0.5);
 }
 
+
 /* Titulo da Receita*/
-header#cabecalho h1{
+
+header#cabecalho h1 {
     position: absolute;
     font-size: 50pt;
     color: rgb(100, 0, 0);
     text-align: center;
-    margin: -10px 0px 0px 470px ;
+    margin: -10px 0px 0px 470px;
 }
 
+
 /* minhas redes sociais */
-section#redes-sociais{
+
+section#redes-sociais {
     position: absolute;
     background: #ffffff;
     border-radius: 5px;
@@ -27,44 +29,56 @@ section#redes-sociais{
     margin: 340px 0px 0px 20px;
 }
 
+
 /* tirando a decoração do texto */
-section#redes-sociais a{
+
+section#redes-sociais a {
     color: rgb(100, 0, 0);
     text-decoration: none;
 }
 
- /* Efeito passando o mouse por cima */
-section#redes-sociais a:hover{
+
+/* Efeito passando o mouse por cima */
+
+section#redes-sociais a:hover {
     font-weight: bold;
     text-decoration: none;
 }
 
+
 /* minha foto */
-section#lado1 img#foto01{
+
+section#lado1 img#foto01 {
     position: absolute;
     margin: 120px 0px 0px 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+
 /* meu nome */
-section#lado1 h3{
+
+section#lado1 h3 {
     position: absolute;
     font-size: 20pt;
     color: rgb(100, 0, 0);
     margin: 380px 0px 0px 50px;
 }
 
+
 /* foto do prato */
-div#texto01 img#foto02{
+
+div#texto01 img#foto02 {
     position: absolute;
-    margin: 0px 0px 0px 420px;
+    margin: -70px 0px 0px 420px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
+
 /* Corpo da Receita */
-section#corpo{
+
+section#corpo {
     position: absolute;
     background: #ffffff;
     border-radius: 10px;
@@ -75,29 +89,37 @@ section#corpo{
     padding-left: 20px;
 }
 
+
 /* Titulos */
-section#corpo h2{
+
+section#corpo h2 {
     font-size: 35pt;
 }
 
+
 /* Ingredientes */
-section#corpo p{
+
+section#corpo p {
     font-size: 23px;
     margin: 10px;
     padding: 0px 0px 0px 30px;
     color: rgba(0, 0, 0, 0.7);
 }
 
+
 /* Modo de preparo */
-section#corpo div#texto02 li{
+
+section#corpo div#texto02 li {
     font-size: 23px;
     margin: -5px;
     padding: 0px 100px 0px 0px;
     color: rgba(0, 0, 0, 0.7);
 }
 
+
 /* Roda pé */
-footer#rodape{
+
+footer#rodape {
     clear: both;
     position: absolute;
     font-size: 12pt;
